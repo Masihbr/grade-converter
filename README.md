@@ -11,6 +11,6 @@ Sharif.edu based gpa-calculator (GPA based on 4) - web backend with Authenticati
 ## ساخت قانون محافظت از شاخه اصل
 <div align="center">
 <img align="center" src=https://github.com/Masihbr/grade-converter/assets/56260232/d9c40667-41d5-46fe-a687-2888e44510fe>
-<img align="center" src=https://github.com/Masihbr/grade-converter/assets/56260232/f5b3268e-1eba-45b3-be5c-3994abf9dd95>
+<img align="center" src=https://github.com/Masihbr/grade-converter/assets/56260232/3be3b8a1-4ad0-4abc-bc3e-0a7cb544ba4f>
 <img align="center" src=https://github.com/Masihbr/grade-converter/assets/56260232/0fe66d53-41ae-4acb-9f0d-f953d31f5fa6>
 </div>
