@@ -3,6 +3,9 @@ from rest_framework.response import Response
 from accounts import serializers as account_serializers
 from django.contrib.auth import authenticate
 from django.contrib.auth import login as auth_login
+from django.contrib.auth import get_user_model
+
+User = get_user_model()
 
 
 class UserSignUpAPIView(generics.CreateAPIView):
@@ -35,3 +38,12 @@ class LogoutAPIView(generics.GenericAPIView):
     def get(self, request):
         request.session.flush()
         return Response({"success": "Successfully logged out."})
+
+
+class UserProfileRetrieveUpdateAPIView(generics.RetrieveUpdateAPIView):
+    serializer_class = account_serializers.UserProfileSerializer
+    permission_classes = [permissions.IsAuthenticated]
+    queryset = User.objects.all()
+
+    def get_object(self):
+        return self.request.user
