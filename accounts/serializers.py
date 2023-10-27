@@ -22,3 +22,12 @@ class UserSignUpSerializer(serializers.ModelSerializer):
         User.objects.filter(username=username).update(**validated_data)
         user.refresh_from_db()
         return user
+
+
+class UserLoginSerializer(serializers.Serializer):
+    username = serializers.CharField()
+    password = serializers.CharField(write_only=True, style={'input_type': 'password'})
+
+    class Meta:
+        model = User
+        fields = ('username', 'password')

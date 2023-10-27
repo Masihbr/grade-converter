@@ -3,4 +3,5 @@ from accounts import views
 
 urlpatterns = [
     path('signup/', views.UserSignUpAPIView.as_view(), name='sign-up'),
+    path('login/', views.LoginAPIView.as_view(), name='login'),
 ]
