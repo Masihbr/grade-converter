@@ -18,14 +18,24 @@ Sharif.edu based gpa-calculator (GPA based on 4) - web backend with Authenticati
 ## پروسه ادغام دو شاخه 
 همانطور که در اولین تصویر قابل مشاهده است برای مرج کردن دو شاخه ابتدا باید یک درخواست pull request از شاخه ای که میخواهید مرج کنید به شاخه مقصد میزنید و میتوانید برای این درخواستتان توضیحاتی نیز ارائه دهید. در ابتدا بصورت اتوماتیک خود گیت چک میکند که ایا این دو شاخه با هم تناقضی دارند یا خیر در صورت نبود تناقض به شما این اجازه را میدهد که به سادگی pull request را بسازید.
 
+![Screenshot from 2023-10-28 09-44-30](https://github.com/Masihbr/grade-converter/assets/59168138/1fc36722-105d-4ff7-bfb1-316d1688ba38)
+
 
 گام بعدی این پروسه همینطور که در تصویر پایین مشاهده میکنید تایید مرج این pull request است که در اینجا میتوانید تغییراتی که میخواهید مرج کنید را در مقایسه و کنار کد های همان بخش ها در شاخه مقصد مشاهده کنید.
+
+![Screenshot from 2023-10-28 09-46-00](https://github.com/Masihbr/grade-converter/assets/59168138/c97f6d87-2638-428e-8297-ac0c0de0cd31)
 
 
 همانطور که در تصویر پایین مشاهده میکنید پس از اعلام درخواست مرج باز هم از شما به عنوان تایید کننده این pull request یک تایید ثانویه میخواهد.
 
+![Screenshot from 2023-10-28 09-46-09](https://github.com/Masihbr/grade-converter/assets/59168138/76f973d5-7c3b-40ce-8fa9-f161e32f8859)
+
 
 در مرحله اخر pull request به سرانجام میرسد و به حالت merged میرود و تغییرات بر روی commit history شاخه مقصد می‌نشیند.
+
+![Screenshot from 2023-10-28 09-46-56](https://github.com/Masihbr/grade-converter/assets/59168138/4cc382ee-af1a-45ba-aa04-d6b3e2c753d9)
+
+
 
 ## پرسش‌ها
 
