@@ -36,6 +36,10 @@ Sharif.edu based gpa-calculator (GPA based on 4) - web backend with Authenticati
 ![Screenshot from 2023-10-28 09-46-56](https://github.com/Masihbr/grade-converter/assets/59168138/4cc382ee-af1a-45ba-aa04-d6b3e2c753d9)
 
 
+## استفاده از فایل .gitignore
+همانطور که مشاهده میکنید در این ریپو از .gitignore مخصوص پروژه های پایتون استفاده کردیم.
+
+![Screenshot from 2023-10-28 23-40-44](https://github.com/Masihbr/grade-converter/assets/59168138/7440d80a-78b2-4a9e-8067-fc00c8d8f173)
 
 ## پرسش‌ها
 
