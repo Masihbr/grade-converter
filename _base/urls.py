@@ -22,4 +22,5 @@ from django.urls.conf import include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/accounts/', include('accounts.urls'), name='accounts'),
+    path('api/calculator/', include('calculator.urls'), name='calculator'),
 ]
