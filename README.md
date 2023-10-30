@@ -41,8 +41,35 @@ Sharif.edu based gpa-calculator (GPA based on 4) - web backend with Authenticati
 
 ![Screenshot from 2023-10-28 23-40-44](https://github.com/Masihbr/grade-converter/assets/59168138/7440d80a-78b2-4a9e-8067-fc00c8d8f173)
 
-## پرسش‌ها
+# حل دو تناقض در گیت
 
+![conflict-01](https://github.com/Masihbr/grade-converter/assets/59168138/33e1352c-bc62-42f4-80e3-797d3984d179)
+
+![conflict-resolve-01](https://github.com/Masihbr/grade-converter/assets/59168138/47196963-3f13-49d3-b05f-ad2318612248)
+
+اولین تناقضی در پروسه تولید برنامه‌مان پیش آمد مربوط به setting بود که یک اشتباه typo باعث شد که درگیر یک conflict شویم و همانطور که در تصاویر بالا مشاهده میکنید به resolve آن بپردازیم.
+
+![conflict-02](https://github.com/Masihbr/grade-converter/assets/59168138/8bd91f52-d1ce-4644-b3c5-dfc5b64a953b)
+
+
+![conflict-resolve-02](https://github.com/Masihbr/grade-converter/assets/59168138/2dc0b8f2-86e6-43b5-8c16-10d8e73864ae)
+
+تناقض دوم نیز هنگامی پیش آمد که یکی از ما در حال توسعه حساب کننده canadian gpa بود و دیگری داشت روی refactoring آن فایل کار میکرد و در این نقطه به تناقضی که در تصویر بالا امده است برخورد کردیم و مشابه تصویر بالا به حل آن پرداختیم.
+
+# بخش انتهایی گزارش آزمایش
+در اینجا صرفا تصاویری از استفاده های خود از گیت را نمایش میدهیم.
+
+![git-clone](https://github.com/Masihbr/grade-converter/assets/59168138/ea1d6690-4435-4164-ba4c-c2391f69d93a)
+
+![git-commands-01](https://github.com/Masihbr/grade-converter/assets/59168138/7369175a-2049-4099-8cf6-f02a700ce6fe)
+
+
+![git-commands-02](https://github.com/Masihbr/grade-converter/assets/59168138/1ede1c0c-95fa-445e-a6eb-d8809ef82bbe)
+
+![git-commands-03](https://github.com/Masihbr/grade-converter/assets/59168138/4c572a09-38ac-49e3-b2b9-58af40089045)
+
+
+## پرسش‌ها
 1. پوشه .git
 یک دایرکتوری پنهان در root یک ریپوی گیت است. یکی از بنیادی‌ترین اجزای پروسه مدیریت و ذخیره سازی دیتا در گیت است. این دایرکتوری تمامی اطلاعات و متادیتا مربوط به ریپوی گیت شما را در خود شامل می‌شود. مواردی همچون تاریخچه کاملی از پروژه، شاخه ها، تگ ها و ...
 چندتا از موارد مهمی که در این دایرکتوری حضور دارند را بررسی میکنیم.
