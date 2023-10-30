@@ -8,6 +8,10 @@ def convert_grade(iranian_grade):
     return usa_gpa
 
 
+def canadian_calculate_grade(iranian_grade):
+    return iranian_grade / 5 - 1
+
+
 def calculate_gpa(info: dict):
     units_sum = 0
     point_sum = 0
@@ -17,4 +21,4 @@ def calculate_gpa(info: dict):
         point_sum += grade * unit
         units_sum += unit
     total_avg = point_sum / units_sum
-    return convert_grade(total_avg)
+    return {'US': convert_grade(total_avg), 'CAN': canadian_calculate_grade(total_avg)}
