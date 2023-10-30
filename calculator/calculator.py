@@ -11,10 +11,10 @@ def convert_grade(iranian_grade):
 def calculate_gpa(info: dict):
     units_sum = 0
     point_sum = 0
-    for lesson in info.keys():
-        unit = int(info[lesson]['unit'])
-        grade = float(info[lesson]['grade'])
+    for _, course in info.items():
+        unit = int(course['unit'])
+        grade = float(course['grade'])
         point_sum += grade * unit
         units_sum += unit
     total_avg = point_sum / units_sum
-    return convert_grade(total_avg)
+    return convert_grade(iranian_grade=total_avg)
